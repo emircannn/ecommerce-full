@@ -20,3 +20,4 @@ Projeyi yerel makinenize klonlamak için aşağıdaki komutu kullanabilirsiniz:
 
 ```bash
 git clone https://github.com/emircannn/Full-Stack-Mobilya-Uygulamas-.git
+
