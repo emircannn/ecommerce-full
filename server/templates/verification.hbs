@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Mostestrat', sans-serif;
+      background-color: #1A1A1A;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 90%; 
+      margin: 0 auto;
+      background-color: #1A1A1A;
+      padding: 30px;
+      text-align: center;
+      border-radius: 12px;
+    }
+    .logo {
+      width: 200px;
+      margin: 20px auto;
+      margin-bottom: 30px;
+    }
+    .logoimg {
+      object-position: center;
+      object-fit: cover;
+      width: 200px;
+    }
+    .header {
+      color: #ffff;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .content {
+      color: #e0e0e0;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px; 
+    }
+    .verification-code {
+      font-weight: bold;
+      font-size: 32px; 
+      color: #FFD700; 
+      margin-bottom: 30px;
+      margin-top: 30px; 
+    }
+    .footer {
+      color: #fff;
+      font-size: 14px;
+    }
+    .name {
+      font-weight: bold;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Mostestrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      Merhaba <span class="name">{{name}}</span>,
+    </div>
+    <div class="content">
+      Bu e-posta, hesap doğrulama işlemi için gönderilmiştir. Lütfen aşağıdaki doğrulama kodunu girin:
+      <div class="verification-code">
+        {{verificationCode}}
+      </div>
+      Bu doğrulama kodu sınırlı süre için geçerlidir.
+    </div>
+    <a class="logo" href="https://dijitalyanki.com">
+    <img class="logoimg" src="https://i.ibb.co/tLdksnx/logo.png" alt="logo" border="0" />
+    </a>
+    <div class="footer">
+      &copy; {{year}} Dijital Yankı. Tüm hakları saklıdır.
+    </div>
+  </div>
+</body>
+</html>
