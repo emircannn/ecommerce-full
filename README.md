@@ -1,4 +1,4 @@
-# Full-Stack Mobilya Uygulaması
+# Full-Stack E-Ticaret Uygulaması
 
 Bu, full stack bir e ticaret uygulamasıdır. Uygulama, Next.js, Nest.js, Prisma ve MySQL gibi teknolojiler kullanılarak geliştirilmiştir.
 
@@ -19,5 +19,5 @@ Bu, full stack bir e ticaret uygulamasıdır. Uygulama, Next.js, Nest.js, Prisma
 Projeyi yerel makinenize klonlamak için aşağıdaki komutu kullanabilirsiniz:
 
 ```bash
-git clone https://github.com/emircannn/Full-Stack-Mobilya-Uygulamas-.git
+git clone https://github.com/emircannn/ecommerce-full.git
 
